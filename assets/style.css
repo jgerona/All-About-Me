@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+}
+
+.nav a {
+    padding: 8px 12px;
+    color: inherit;
+}
+
+.portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.portfolio-items {
+flex-grow: 0;
+background: aqua;
+width: calc(50%-5px);
+padding: 15px;
+}
+.wide-item {
+    
+}
