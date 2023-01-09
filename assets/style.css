@@ -1,11 +1,13 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     margin: 0;
     background-color: rgb(45, 114, 119);
     color: white;
 }
+
 .name {
     display: flex;
 }
@@ -30,7 +32,7 @@ body {
 }
 
 
-.me {
+.hero {
     height: 500px;
     background-image: url(./images/IMG_3721.JPG);
     background-repeat: no-repeat;
@@ -82,10 +84,12 @@ body {
     text-decoration: none;
     justify-content: center;
 }
+
 #LEDWall {
     background-image: url("https://www.matrixvisual.com/wp-content/uploads/2016/07/LED-Wall-Benefits.png");
     /* background-size: cover; */
 }
+
 #Calculator {
     background-image: url("https://miro.medium.com/max/960/1*ulD6na_hQsXA5uC0acoteA.png");
     background-image: contain;
@@ -99,16 +103,22 @@ body {
     background-image: url("https://miro.medium.com/max/792/1*lJ32Bl-lHWmNMUSiSq17gQ.png");
 }
 
-a:visited, a:link, a:hover, a:active {
+a:visited,
+a:link,
+a:hover,
+a:active {
     color: rgb(114, 226, 92);
 }
 
 @media screen and (max-width: 1050px) {
-    .navbar, .portfolio-grid, .portfolio-items {
-      display: inline-block;
-      text-align: center;
-      flex-direction: column;
-      width: 100%;
-      justify-content: center;
+
+    .navbar,
+    .portfolio-grid,
+    .portfolio-items {
+        display: inline-block;
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
     }
-  }
+}
