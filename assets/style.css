@@ -61,6 +61,9 @@ body {
     background-position: center;
     /* justify-content: right; */
 }
+.portfolio-items h2 span {
+    background-color: rgb(48, 81, 131);
+}
 
 #aboutme {
     flex-grow: 0;
@@ -85,8 +88,8 @@ body {
     justify-content: center;
 }
 
-#LEDWall {
-    background-image: url("https://www.matrixvisual.com/wp-content/uploads/2016/07/LED-Wall-Benefits.png");
+#crime-tracker {
+    background-image: url("./images/city-bg.jpg");
     /* background-size: cover; */
 }
 
